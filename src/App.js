@@ -4,18 +4,13 @@ import './App.css';
 import {Route, Switch} from "react-router-dom";
 
 
-import NavigaceSwitch from "./components/navigace/navigaceSwitch";
+import AppSwitch from "./components/MobileSwitch";
 
 function App() {
     return (
         <div className="App">
 
-            <NavigaceSwitch/>
-            <Switch>
-                <Route exact="true" path="/">
-
-                </Route>
-            </Switch>
+            <AppSwitch/>
         </div>
     );
 }

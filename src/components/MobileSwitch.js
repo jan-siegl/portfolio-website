@@ -1,10 +1,10 @@
 import React, {Component} from "react";
 
 //komponenty
-import NavigaceMobil from "./navigaceMobil";
-import Navigace from "./navigace";
+import MobileApp from "./mobile/MobileApp";
+import DesktopApp from "./desktop/DesktopApp";
 
-export default class NavigaceWrap extends Component {
+export default class MobileWrap extends Component {
     constructor() {
         super();
         this.state = {
@@ -30,11 +30,11 @@ export default class NavigaceWrap extends Component {
 
         if (isMobile) {
             return (
-                <NavigaceMobil />
+                <MobileApp />
             );
         } else {
             return (
-                <Navigace />
+                <DesktopApp />
             );
         }
     }
