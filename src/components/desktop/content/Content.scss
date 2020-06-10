@@ -73,6 +73,23 @@
   padding-left: 33%;
 }
 
+//projekty
+.boxik {
+  margin: 3rem;
+  height: 100%;
+  border-radius: 4px;
+  text-align: center;
+  color: #707070;
+  text-decoration: none !important;
+}
+
+.boxik:hover {
+  text-decoration: none !important;
+}
+
+.boxik h5 {
+  color: black;
+}
 
 //kontakty
 .karticka-kontakty {
