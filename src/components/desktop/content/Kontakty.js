@@ -4,7 +4,7 @@ import './Content.scss';
 
 function Kontakty() {
     return (
-        <div className="root ome-root" id="4">
+        <div className="root ome-root" id="5">
             <div className="karticka karticka-kontakty">
                 <div className="kontakty-content">
                     <h4>jan.siegl@ephi.cz</h4><br/><br/>

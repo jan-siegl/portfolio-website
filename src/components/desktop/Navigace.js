@@ -12,6 +12,7 @@ export default class Navigace extends Component {
             link2: "#707070",
             link3: "#707070",
             link4: "#707070",
+            link5: "#707070",
         };
     }
 
@@ -25,7 +26,7 @@ export default class Navigace extends Component {
 
     listenToScroll = () => {
         const winScroll =
-            document.body.scrollTop || document.documentElement.scrollTop
+            document.body.scrollTop || document.documentElement.scrollTop;
 
         const height =
             document.documentElement.scrollHeight -
@@ -35,7 +36,7 @@ export default class Navigace extends Component {
 
         const fiftyvh = window.innerHeight / 2;
         const percent = scrolled * 100;
-        const thenumber = 2.4 * percent;
+        const thenumber = 3.2 * percent;
         const offset = 15 + thenumber;
         const odsazenitop = fiftyvh - offset;
         const textColorActive = "black";
@@ -46,33 +47,45 @@ export default class Navigace extends Component {
             odsazeni: odsazenitop,
         });
 
-        if (percent < 17){
+        if (percent < 12){
             this.setState({
                 link1: textColorActive,
                 link2: textColorUnactive,
                 link3: textColorUnactive,
                 link4: textColorUnactive,
+                link5: textColorUnactive,
             });
-        } else if (percent >= 17 && percent < 50){
+        } else if (percent >= 12 && percent < 37){
             this.setState({
                 link1: textColorUnactive,
                 link2: textColorActive,
                 link3: textColorUnactive,
                 link4: textColorUnactive,
+                link5: textColorUnactive,
             });
-        } else if (percent >= 50 && percent < 82){
+        } else if (percent >= 37 && percent < 62){
             this.setState({
                 link1: textColorUnactive,
                 link2: textColorUnactive,
                 link3: textColorActive,
                 link4: textColorUnactive,
+                link5: textColorUnactive,
             });
-        } else if (percent >= 82){
+        } else if (percent >= 62 && percent < 87){
             this.setState({
                 link1: textColorUnactive,
                 link2: textColorUnactive,
                 link3: textColorUnactive,
                 link4: textColorActive,
+                link5: textColorUnactive,
+            });
+        } else if (percent >= 87){
+            this.setState({
+                link1: textColorUnactive,
+                link2: textColorUnactive,
+                link3: textColorUnactive,
+                link4: textColorUnactive,
+                link5: textColorActive,
             });
         }
     };
@@ -84,13 +97,15 @@ export default class Navigace extends Component {
         const link2 = this.state.link2;
         const link3 = this.state.link3;
         const link4 = this.state.link4;
+        const link5 = this.state.link5;
         return (
             <div className="navigace-root" style={{marginTop : OdsazeniTop}}>
                 <ul className="navigace-list">
                     <li className="margin-between"><a href="#"><Link to="1" smooth={true} className="navigace-item effect-underline" style={{color : link1}}>Jan Siegl</Link></a></li>
                     <li className="margin-between"><a href="#"><Link to="2" smooth={true} className="navigace-item" style={{color : link2}}>O mě</Link></a></li>
-                    <li className="margin-between"><a href="#"><Link to="3" smooth={true} className="navigace-item" style={{color : link3}}>Projekty</Link></a></li>
-                    <li className="margin-between"><a href="#"><Link to="4" smooth={true} className="navigace-item" style={{color : link4}}>Kontakty</Link></a></li>
+                    <li className="margin-between"><a href="#"><Link to="3" smooth={true} className="navigace-item" style={{color : link3}}>Dovednosti</Link></a></li>
+                    <li className="margin-between"><a href="#"><Link to="4" smooth={true} className="navigace-item" style={{color : link4}}>Projekty</Link></a></li>
+                    <li className="margin-between"><a href="#"><Link to="5" smooth={true} className="navigace-item" style={{color : link5}}>Kontakty</Link></a></li>
                 </ul>
             </div>
         )

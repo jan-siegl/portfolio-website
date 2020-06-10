@@ -2,6 +2,7 @@ import React, {Component} from "react";
 
 import Main from "./content/Main";
 import Ome from "./content/Ome";
+import Dovednosti from "./content/Dovednosti";
 import Projekty from "./content/Projekty";
 import Kontakty from "./content/Kontakty";
 import Navigace from "./Navigace";
@@ -52,6 +53,7 @@ function Content() {
         <div className="content-root">
             <Main/>
             <Ome/>
+            <Dovednosti/>
             <Projekty/>
             <Kontakty/>
         </div>

@@ -4,7 +4,7 @@ import './Content.scss';
 
 function Projekty() {
     return (
-        <div className="root projekty-root" id="3">
+        <div className="root projekty-root" id="4">
             <div className="karticka">
                 :O
             </div>
