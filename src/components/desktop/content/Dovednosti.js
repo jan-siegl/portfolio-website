@@ -7,20 +7,11 @@ function Dovednosti() {
         <div className="root ome-root" id="3">
             <div className="karticka karticka-dovednosti">
                 <p>
-                    <h5>Zvládám</h5>
-                    <il>
-                        <li>HTML, CSS/Sass</li>
-                        <li>Javascript, zejména React</li>
-                        <li>SQL/MySQL, Firebase</li>
-                        <li>Práce v Adobe XD/Figma</li>
-                    </il><br/>
-                    <h5>Mám základy</h5>
-                    <il>
-                        <li>node.js</li>
-                        <li>PHP</li>
-                    </il><br/>
-                    <h5>Ostatní</h5>
-                    Java, Python
+                    <h3>Mám zkušenosti s</h3><br/>
+                    <b>Webdevelopment:</b> HTML, CSS/SCSS, Tailwind/Bootstrap, Javascript - React, PHP - Nette<br/><br/>
+                    <b>UI/UX design:</b> Adobe XD, Figma, Photoshop<br/><br/>
+                    <b>Programování:</b> Java - JavaFX, Python, React Native<br/><br/>
+                    <b>Angličtina:</b> C2
                 </p>
             </div>
         </div>
