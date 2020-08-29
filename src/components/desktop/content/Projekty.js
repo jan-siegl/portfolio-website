@@ -18,19 +18,19 @@ function Projekty() {
             <div className="karticka">
                 <Carousel arrows className="carousel-own">
                     <div className="panel panel0">
-                        <img className="panel-img" src={JanSieglWeb}/><br/>
+                        <img className="panel-img" src={JanSieglWeb}/><br/><br/>
                         <b>Osobní portfolio</b><br/>
                         <i>Jan Siegl</i><br/>
                         <span className="panel-subinfo">Technologie: React, React Spring, TailwindCSS</span>
                     </div>
                     <div className="panel panel1">
-                        <img className="panel-img" src={EphiWeb}/><br/>
+                        <img className="panel-img" src={EphiWeb}/><br/><br/>
                         <b>Webová prezentace</b><br/>
                         <i>Ephi.cz</i><br/>
                         <span className="panel-subinfo">Technologie: React, Bootstrap</span>
                     </div>
                     <div className="panel panel2">
-                        <img className="panel-img" src={GamestownWeb}/><br/>
+                        <img className="panel-img" src={GamestownWeb}/><br/><br/>
                         <b>Web pro gaming portál</b><br/>
                         <i>Games-Town</i><br/>
                         <span className="panel-subinfo">Technologie: Node.js, React, Bootstrap<br/><i>Ve vývoji</i></span>

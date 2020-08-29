@@ -28,6 +28,10 @@
   text-align: center;
 }
 
+.strana h3 {
+  padding-top: 5vh;
+}
+
 .mobile-navigace {
   width: 100vw;
   position: absolute;
@@ -41,9 +45,35 @@
   font-size: small;
   padding-top: 10px;
   padding-bottom: 10px;
+  background-color: #F0F0F2;
 }
 
 .tlacitko-selected {
   color: black;
   text-decoration: underline black;
+}
+
+//projekty
+
+.projects-control {
+  border: none;
+  background-color: #F0F0F2;
+  font-size: 40px;
+  padding: 10px;
+}
+
+.projects-align {
+  margin: auto;
+}
+
+.projects-stranky {
+
+}
+
+.projects-img {
+  padding-top: 16vh;
+}
+
+.mobile-panel-subinfo {
+  color: grey;
 }
