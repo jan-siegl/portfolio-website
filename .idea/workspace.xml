@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9f35ea4-cdc7-48d2-9d9b-d8d2af46e7c8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/images/ephiweb.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/jansieglweb.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/desktop/Desktop.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/desktop/Desktop.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/desktop/content/Content.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/desktop/content/Content.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/desktop/content/Dovednosti.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/desktop/content/Dovednosti.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/desktop/content/Projekty.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/desktop/content/Projekty.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/mobile/Mobile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mobile/Mobile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/mobile/MobileApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mobile/MobileApp.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +104,7 @@
       <workItem from="1587505731072" duration="621000" />
       <workItem from="1588539015237" duration="1412000" />
       <workItem from="1591818285067" duration="5454000" />
-      <workItem from="1598719835763" duration="7806000" />
+      <workItem from="1598719835763" duration="17886000" />
     </task>
     <task id="LOCAL-00001" summary="mega update">
       <created>1587475548548</created>

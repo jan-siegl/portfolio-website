@@ -1,0 +1,49 @@
+:root {
+  --color-pastel-lightblue: #0ACBCB;
+  --color-pastel-blue: #04B3E4;
+  --color-pastel-purple: #62206A;
+  --color-pastel-green: #015551;
+  --color-pastel-yellow: #FFC026;
+  --color-pastel-black: #010101;
+}
+
+.strana {
+  background-color: #F0F0F2;
+  text-align: center;
+}
+
+.strana0 {
+
+}
+.strana1 {
+
+}
+.strana2 {
+
+}
+.strana3 {
+
+}
+.strana4 {
+  text-align: center;
+}
+
+.mobile-navigace {
+  width: 100vw;
+  position: absolute;
+  bottom: 2%;
+  text-align: center;
+}
+
+.tlacitko {
+  color: grey;
+  border: none;
+  font-size: small;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.tlacitko-selected {
+  color: black;
+  text-decoration: underline black;
+}
