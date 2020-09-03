@@ -1,7 +1,6 @@
 {
   "name": "jansieglweb",
   "version": "0.1.0",
-  "homepage": "/preview",
   "private": true,
   "dependencies": {
     "@brainhubeu/react-carousel": "^1.19.26",
