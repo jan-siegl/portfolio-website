@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9f35ea4-cdc7-48d2-9d9b-d8d2af46e7c8" name="Default Changelist" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/mobile/Mobile.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mobile/Mobile.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/mobile/MobileApp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/mobile/MobileApp.js" afterDir="false" />
+>>>>>>> parent of a30adb5... /build push
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +107,10 @@
       <workItem from="1591818285067" duration="5454000" />
       <workItem from="1598719835763" duration="20055000" />
       <workItem from="1598863490534" duration="6858000" />
+<<<<<<< HEAD
       <workItem from="1599119786642" duration="846000" />
+=======
+>>>>>>> parent of a30adb5... /build push
     </task>
     <task id="LOCAL-00001" summary="mega update">
       <created>1587475548548</created>
