@@ -8,6 +8,9 @@ import 'pure-react-carousel/dist/react-carousel.es.css';
 import JanSieglWeb from '../../images/jansieglweb.png';
 import EphiWeb from '../../images/ephiweb.png';
 import GamestownWeb from '../../images/gamestownweb.png';
+import Col from "react-bootstrap/Col";
+
+import {ReactComponent as Avatar} from "../../images/avatar.svg";
 
 function MobileApp() {
     const vh = window.innerHeight;
@@ -23,7 +26,14 @@ function MobileApp() {
             <Slider className="slider-root">
                 <b>
                     <Slide index={0} className="strana strana0">
-                        I am the first Slide.<br/>
+                        <div className="mobile-avatar">
+                            <Avatar/>
+                        </div>
+                        <h1><b>JAN SIEGL</b></h1>
+                        <p>
+                            webdesign <br/>
+                            webdevelopment
+                        </p>
                         <div className="mobile-navigace">
                             <Dot children={'Jan Siegl'} slide={0} className="tlacitko tlacitko-selected"/>
                             <Dot children={'O me'} slide={1} className="tlacitko"/>
@@ -33,7 +43,13 @@ function MobileApp() {
                         </div>
                     </Slide>
                     <Slide index={1} className="strana strana1">
-                        I am the second Slide.
+                        <p>
+                            <h3><b>O mě</b></h3><br/><br/><br/><br/>
+                            Jsem osmnáctiletý student střední školy informačních technologií, kterého zejména baví
+                            tvořit. Ať už weby, webové aplikace, či cokoliv kreativního<br/><br/>Snažím se dělat to co
+                            mě baví a neustále se rozvíjet.<br/><br/>Mezi mé další oblíbené aktivity patří
+                            fotografování, videotvorba a venkovní sporty.
+                        </p>
                         <div className="mobile-navigace">
                             <Dot children={'Jan Siegl'} slide={0} className="tlacitko"/>
                             <Dot children={'O me'} slide={1} className="tlacitko tlacitko-selected"/>
@@ -43,7 +59,14 @@ function MobileApp() {
                         </div>
                     </Slide>
                     <Slide index={2} className="strana strana2">
-                        I am the third Slide.
+                        <p>
+                            <h3><b>Mám zkušenosti s</b></h3><br/><br/><br/><br/>
+                            <b>Webdevelopment:</b> HTML, CSS/SCSS, Tailwind/Bootstrap, Javascript - React, PHP -
+                            Nette<br/><br/>
+                            <b>UI/UX design:</b> Adobe XD, Figma, Photoshop<br/><br/>
+                            <b>Programování:</b> Java - JavaFX, Python, React Native<br/><br/>
+                            <b>Angličtina:</b> C2
+                        </p>
                         <div className="mobile-navigace">
                             <Dot children={'Jan Siegl'} slide={0} className="tlacitko "/>
                             <Dot children={'O me'} slide={1} className="tlacitko"/>
@@ -72,7 +95,8 @@ function MobileApp() {
                                     <img className="panel-img  projects-img" src={EphiWeb}/><br/><br/>
                                     <b>Webová prezentace</b><br/>
                                     <i>Ephi.cz</i><br/>
-                                    <span className="panel-subinfo  mobile-panel-subinfo">Technologie: React, Bootstrap</span>
+                                    <span
+                                        className="panel-subinfo  mobile-panel-subinfo">Technologie: React, Bootstrap</span>
                                 </Slide>
                                 <Slide index={2} className="projects-stranky">
                                     <img className="panel-img projects-img" src={GamestownWeb}/><br/><br/>
