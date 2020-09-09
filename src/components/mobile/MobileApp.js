@@ -46,9 +46,9 @@ function MobileApp() {
                         <p>
                             <h3><b>O mě</b></h3><br/><br/><br/><br/>
                             Jsem osmnáctiletý student střední školy informačních technologií, kterého zejména baví
-                            tvořit. Ať už weby, webové aplikace, či cokoliv kreativního<br/><br/>Snažím se dělat to co
+                            tvořit. Ať už <b>weby, webové aplikace,</b> či cokoliv kreativního.<br/><br/>Snažím se dělat to, co
                             mě baví a neustále se rozvíjet.<br/><br/>Mezi mé další oblíbené aktivity patří
-                            fotografování, videotvorba a venkovní sporty.
+                            <b> fotografování, videotvorba</b> a venkovní sporty.
                         </p>
                         <div className="mobile-navigace">
                             <Dot children={'Jan Siegl'} slide={0} className="tlacitko"/>
@@ -61,11 +61,11 @@ function MobileApp() {
                     <Slide index={2} className="strana strana2">
                         <p>
                             <h3><b>Mám zkušenosti s</b></h3><br/><br/><br/><br/>
-                            <b>Webdevelopment:</b> HTML, CSS/SCSS, Tailwind/Bootstrap, Javascript - React, PHP -
+                            <b>Vývojem webů:</b> <br/>HTML, CSS/SCSS, Tailwind/Bootstrap, Javascript - React, PHP -
                             Nette<br/><br/>
-                            <b>UI/UX design:</b> Adobe XD, Figma, Photoshop<br/><br/>
-                            <b>Programování:</b> Java - JavaFX, Python, React Native<br/><br/>
-                            <b>Angličtina:</b> C2
+                            <b>UI/UX designem:</b> <br/>Adobe XD, Figma, Photoshop<br/><br/>
+                            <b>Programováním:</b> <br/>Java - JavaFX, Python, React Native<br/><br/>
+                            <b>Angličtinou na úrovni rodilého mluvčí (C2)</b>
                         </p>
                         <div className="mobile-navigace">
                             <Dot children={'Jan Siegl'} slide={0} className="tlacitko "/>
@@ -119,7 +119,7 @@ function MobileApp() {
                     <Slide index={4} className="strana strana4">
                         <h3><b>Kontakty</b></h3>
                         <br/><br/><br/>
-                        jan.siegl@ephi.cz
+                        jan.siegl@pm.me
                         <br/><br/><br/>
                         +420 720 181 778
                         <div className="mobile-navigace">

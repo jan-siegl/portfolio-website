@@ -9,7 +9,7 @@ import { ReactComponent as Avatar } from "../../../images/avatar.svg";
 function Main() {
     return (
         <div className="root main-root" id="1">
-            <div className="karticka karticka-main">
+            <div className="karticka karticka-main font2">
                 <Row className="main-row">
                 <Col className="main-headshot">
                     <Avatar/>

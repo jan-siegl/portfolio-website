@@ -15,7 +15,7 @@ import GamestownWeb from '../../../images/gamestownweb.png';
 function Projekty() {
     return (
         <div className="root projekty-root" id="4">
-            <div className="karticka">
+            <div className="karticka <br/>">
                 <Carousel arrows className="carousel-own">
                     <div className="panel panel0">
                         <img className="panel-img" src={JanSieglWeb}/><br/><br/>
