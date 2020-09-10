@@ -26,9 +26,10 @@ function MobileApp() {
             <Slider className="slider-root">
                 <b>
                     <Slide index={0} className="strana strana0">
-                        <div className="mobile-avatar">
+                        <br/>
                             <Avatar/>
-                        </div>
+                            <br/>
+                            <br/>
                         <h1><b>JAN SIEGL</b></h1>
                         <p>
                             webdesign <br/>
