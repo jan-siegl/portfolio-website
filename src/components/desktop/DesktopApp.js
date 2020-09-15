@@ -35,19 +35,6 @@ function DesktopApp() {
     );
 }
 
-/*function Navigace() {
-    return (
-        <div className="navigace-root">
-            <ul className="navigace-list">
-                <li className="margin-between"><a href="#1" className="navigace-item selected">Jan Siegl</a></li>
-                <li className="margin-between"><a href="#2" className="navigace-item">O mě</a></li>
-                <li className="margin-between"><a href="#3" className="navigace-item">Projekty</a></li>
-                <li className="margin-between"><a href="#" className="navigace-item">Kontakty</a></li>
-            </ul>
-        </div>
-    )
-}*/
-
 function Content() {
     return (
         <div className="content-root">

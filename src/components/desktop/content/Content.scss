@@ -34,6 +34,8 @@
 }
 
 .main-headshot svg {
+  width: 15vw;
+  height: 15vw;
 }
 
 .main-text {
@@ -42,14 +44,15 @@
   margin-bottom: auto;
   padding-left: 0 !important;
   padding-right: 10% !important;
+  font-size: 1.5rem;
 }
 
 .main-text h1 {
   padding-bottom: 10%;
+  font-size: 3rem;
 }
 
 .main-text p {
-  font-size: 30px;
   color: #707070;
 }
 
@@ -65,7 +68,7 @@
 //dovednosti
 .karticka-dovednosti {
   padding: 3rem 5rem;
-  font-size: 15px;
+  font-size: 0.8rem;
   color: #707070;
 }
 
