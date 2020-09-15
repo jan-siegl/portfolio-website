@@ -68,7 +68,7 @@ function MobileApp() {
                             <b>Vývojem webů:</b> <br/>HTML, CSS/SCSS, Tailwind/Bootstrap, Javascript - React, PHP -
                             Nette<br/><br/>
                             <b>UI/UX designem:</b> <br/>Adobe XD, Figma, Photoshop<br/><br/>
-                            <b>Programováním:</b> <br/>Java - JavaFX, Python, React Native<br/><br/>
+                            <b>Programováním:</b> <br/>Java - JavaFX, Python<br/><br/>
                             <b>Angličtinou na úrovni rodilého mluvčí (C2)</b>
                         </p>
                         <div className="mobile-navigace">
