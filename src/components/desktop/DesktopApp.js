@@ -70,7 +70,7 @@ function Sidebar() {
                 <a href="https://www.linkedin.com/in/jan-siegl-1ab7b61a7/" target="_blank"><Linkedin/><span className="sidebar-link-text">Linkedin</span></a><br/>
             </div>
             <div className="sidebar-link">
-                <a href="#"><Instagram/><span className="sidebar-link-text">Instagram</span></a><br/>
+                <a href="https://www.instagram.com/honza_siegl/"><Instagram/><span className="sidebar-link-text">Instagram</span></a><br/>
             </div>
             <div className="lang-switch">
             </div>

@@ -9,6 +9,9 @@ import JanSieglWeb from '../../images/jansieglweb.png';
 import EphiWeb from '../../images/ephiweb.png';
 import GamestownWeb from '../../images/gamestownweb.png';
 import Col from "react-bootstrap/Col";
+import { ReactComponent as Github } from "../../images/github.svg";
+import { ReactComponent as Linkedin } from "../../images/linkedin.svg";
+import { ReactComponent as Instagram } from "../../images/instagram.svg";
 
 import {ReactComponent as Avatar} from "../../images/avatar.svg";
 
@@ -37,7 +40,7 @@ function MobileApp() {
                         </p>
                         <div className="mobile-navigace">
                             <Dot children={'Jan Siegl'} slide={0} className="tlacitko tlacitko-selected"/>
-                            <Dot children={'O me'} slide={1} className="tlacitko"/>
+                            <Dot children={'O mě'} slide={1} className="tlacitko"/>
                             <Dot children={'Dovednosti'} slide={2} className="tlacitko"/>
                             <Dot children={'Projekty'} slide={3} className="tlacitko"/>
                             <Dot children={'Kontakty'} slide={4} className="tlacitko"/>
@@ -53,7 +56,7 @@ function MobileApp() {
                         </p>
                         <div className="mobile-navigace">
                             <Dot children={'Jan Siegl'} slide={0} className="tlacitko"/>
-                            <Dot children={'O me'} slide={1} className="tlacitko tlacitko-selected"/>
+                            <Dot children={'O mě'} slide={1} className="tlacitko tlacitko-selected"/>
                             <Dot children={'Dovednosti'} slide={2} className="tlacitko"/>
                             <Dot children={'Projekty'} slide={3} className="tlacitko"/>
                             <Dot children={'Kontakty'} slide={4} className="tlacitko"/>
@@ -70,7 +73,7 @@ function MobileApp() {
                         </p>
                         <div className="mobile-navigace">
                             <Dot children={'Jan Siegl'} slide={0} className="tlacitko "/>
-                            <Dot children={'O me'} slide={1} className="tlacitko"/>
+                            <Dot children={'O mě'} slide={1} className="tlacitko"/>
                             <Dot children={'Dovednosti'} slide={2} className="tlacitko tlacitko-selected"/>
                             <Dot children={'Projekty'} slide={3} className="tlacitko"/>
                             <Dot children={'Kontakty'} slide={4} className="tlacitko"/>
@@ -111,7 +114,7 @@ function MobileApp() {
                         </CarouselProvider>
                         <div className="mobile-navigace">
                             <Dot children={'Jan Siegl'} slide={0} className="tlacitko "/>
-                            <Dot children={'O me'} slide={1} className="tlacitko"/>
+                            <Dot children={'O mě'} slide={1} className="tlacitko"/>
                             <Dot children={'Dovednosti'} slide={2} className="tlacitko"/>
                             <Dot children={'Projekty'} slide={3} className="tlacitko tlacitko-selected"/>
                             <Dot children={'Kontakty'} slide={4} className="tlacitko"/>
@@ -123,9 +126,11 @@ function MobileApp() {
                         jan.siegl@pm.me
                         <br/><br/><br/>
                         +420 720 181 778
+                        <br/><br/><br/>
+                        <a href="https://github.com/jan-siegl"><Github/></a><a href="https://www.linkedin.com/in/jan-siegl-1ab7b61a7/"><Linkedin/></a><a href="https://www.instagram.com/honza_siegl/"><Instagram/></a>
                         <div className="mobile-navigace">
                             <Dot children={'Jan Siegl'} slide={0} className="tlacitko "/>
-                            <Dot children={'O me'} slide={1} className="tlacitko"/>
+                            <Dot children={'O mě'} slide={1} className="tlacitko"/>
                             <Dot children={'Dovednosti'} slide={2} className="tlacitko"/>
                             <Dot children={'Projekty'} slide={3} className="tlacitko"/>
                             <Dot children={'Kontakty'} slide={4} className="tlacitko tlacitko-selected"/>
