@@ -48,7 +48,7 @@ function MobileApp() {
                     </Slide>
                     <Slide index={1} className="strana strana1">
                         <p>
-                            <h3><b>O mě</b></h3><br/><br/><br/><br/>
+                            <h3><b>O mně</b></h3><br/><br/><br/><br/>
                             Jsem osmnáctiletý student střední školy informačních technologií, kterého zejména baví
                             tvořit. Ať už <b>weby, webové aplikace,</b> či cokoliv kreativního.<br/><br/>Snažím se dělat to, co
                             mě baví a neustále se rozvíjet.<br/><br/>Mezi mé další oblíbené aktivity patří

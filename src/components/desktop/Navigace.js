@@ -102,7 +102,7 @@ export default class Navigace extends Component {
             <div className="navigace-root" style={{marginTop : OdsazeniTop}}>
                 <ul className="navigace-list">
                     <li className="margin-between"><a href="#"><Link to="1" smooth={true} className="navigace-item effect-underline" style={{color : link1}}>Jan Siegl</Link></a></li>
-                    <li className="margin-between"><a href="#"><Link to="2" smooth={true} className="navigace-item" style={{color : link2}}>O mě</Link></a></li>
+                    <li className="margin-between"><a href="#"><Link to="2" smooth={true} className="navigace-item" style={{color : link2}}>O mně</Link></a></li>
                     <li className="margin-between"><a href="#"><Link to="3" smooth={true} className="navigace-item" style={{color : link3}}>Dovednosti</Link></a></li>
                     <li className="margin-between"><a href="#"><Link to="4" smooth={true} className="navigace-item" style={{color : link4}}>Projekty</Link></a></li>
                     <li className="margin-between"><a href="#"><Link to="5" smooth={true} className="navigace-item" style={{color : link5}}>Kontakty</Link></a></li>
