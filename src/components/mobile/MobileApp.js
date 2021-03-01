@@ -9,9 +9,9 @@ import JanSieglWeb from '../../images/jansieglweb.png';
 import EphiWeb from '../../images/ephiweb.png';
 import GamestownWeb from '../../images/gamestownweb.png';
 import Col from "react-bootstrap/Col";
-import { ReactComponent as Github } from "../../images/github.svg";
-import { ReactComponent as Linkedin } from "../../images/linkedin.svg";
-import { ReactComponent as Instagram } from "../../images/instagram.svg";
+import {ReactComponent as Github} from "../../images/github.svg";
+import {ReactComponent as Linkedin} from "../../images/linkedin.svg";
+import {ReactComponent as Instagram} from "../../images/instagram.svg";
 
 import {ReactComponent as Avatar} from "../../images/avatar.svg";
 
@@ -29,15 +29,14 @@ function MobileApp() {
             <Slider className="slider-root">
                 <b>
                     <Slide index={0} className="strana strana0">
-                        <br/>
-                            <Avatar/>
-                            <br/>
-                            <br/>
-                        <h1><b>JAN SIEGL</b></h1>
-                        <p>
-                            webdesign <br/>
-                            webdevelopment
-                        </p>
+                        <div className="strana0__content">
+                            <img src="/images/profile_pic.png" alt="Profilová fotka"/>
+                            <h1>JAN SIEGL</h1>
+                            <p>
+                                webdesign <br/>
+                                webdevelopment
+                            </p>
+                        </div>
                         <div className="mobile-navigace">
                             <Dot children={'Jan Siegl'} slide={0} className="tlacitko tlacitko-selected"/>
                             <Dot children={'O mě'} slide={1} className="tlacitko"/>
@@ -47,13 +46,16 @@ function MobileApp() {
                         </div>
                     </Slide>
                     <Slide index={1} className="strana strana1">
-                        <p>
-                            <h3><b>O mně</b></h3><br/><br/><br/><br/>
-                            Jsem osmnáctiletý student střední školy informačních technologií, kterého zejména baví
-                            tvořit. Ať už <b>weby, webové aplikace,</b> či cokoliv kreativního.<br/><br/>Snažím se dělat to, co
-                            mě baví a neustále se rozvíjet.<br/><br/>Mezi mé další oblíbené aktivity patří
-                            <b> fotografování, videotvorba</b> a venkovní sporty.
-                        </p>
+                        <h3><b>O mně</b></h3>
+                        <div className="strana1__content">
+                            <p>Jsem osmnáctiletý student střední školy informačních technologií, který letos maturuje.
+                                Baví mě vymýšlet a realizovat zajímavé projekty. Ať
+                                už <b>weby, mobilní aplikace,</b> či cokoliv kreativního.</p>
+                            <p>Snažím se dělat to, co mě baví a neustále se rozvíjet. Nejradši se učím praxí.</p>
+                            <p>Mezi mé další oblíbené aktivity patří <b>fotografování, videotvorba</b> a
+                                venkovní sporty. V létě najedu spoustu kilometrů na kole a v zimě rád běhám na běžkách.
+                            </p>
+                        </div>
                         <div className="mobile-navigace">
                             <Dot children={'Jan Siegl'} slide={0} className="tlacitko"/>
                             <Dot children={'O mě'} slide={1} className="tlacitko tlacitko-selected"/>
@@ -62,15 +64,13 @@ function MobileApp() {
                             <Dot children={'Kontakty'} slide={4} className="tlacitko"/>
                         </div>
                     </Slide>
-                    <Slide index={2} className="strana strana2">
-                        <p>
-                            <h3><b>Mám zkušenosti s</b></h3><br/><br/><br/><br/>
-                            <b>Vývojem webů:</b> <br/>HTML, CSS/SCSS, Tailwind/Bootstrap, Javascript - React, PHP -
-                            Nette<br/><br/>
-                            <b>UI/UX designem:</b> <br/>Adobe XD, Figma, Photoshop<br/><br/>
-                            <b>Programováním:</b> <br/>Java - JavaFX, Python<br/><br/>
-                            <b>Angličtinou na úrovni rodilého mluvčí (C2)</b>
-                        </p>
+                    <Slide index={2} className="strana strana1">
+                        <h3>Mám zkušenosti s</h3>
+                        <div className="strana1__content">
+                            <p>V páté třídě jsem se na kroužku ve škole seznámil s <b>HTML a CSS</b>, což odstartovalo můj zájem o tovrbu webů. Na základce jsem se sám učil základy <b>JavaScriptu</b></p>
+                            <p>Pořádně jsem se tomu začal věnovat tři roky zpět, v prváku na střední. To jsem poprvé objevil <b>React.</b> Na několika prvních projektech jsem se seznámil se <b>SASS</b> postprocesorem.</p>
+                            <p>Už skoro půl roku mám stáž v studiu <a href="http://dipozitiv.cz/">Dipozitiv</a>, kde jsem zlepšil svůj kód, naučil se používat BEM, seznámil se se <b>Svelte</b> a jeho použitím se <b>Sapper</b>em a pracoval na mnoho projektech. </p>
+                        </div>
                         <div className="mobile-navigace">
                             <Dot children={'Jan Siegl'} slide={0} className="tlacitko "/>
                             <Dot children={'O mě'} slide={1} className="tlacitko"/>
@@ -120,14 +120,16 @@ function MobileApp() {
                             <Dot children={'Kontakty'} slide={4} className="tlacitko"/>
                         </div>
                     </Slide>
-                    <Slide index={4} className="strana strana4">
-                        <h3><b>Kontakty</b></h3>
-                        <br/><br/><br/>
-                        jan.siegl@pm.me
-                        <br/><br/><br/>
-                        +420 720 181 778
-                        <br/><br/><br/>
-                        <a href="https://github.com/jan-siegl"><Github/></a><a href="https://www.linkedin.com/in/jan-siegl-1ab7b61a7/"><Linkedin/></a><a href="https://www.instagram.com/honza_siegl/"><Instagram/></a>
+                    <Slide index={4} className="strana strana1">
+                        <h3>Kontakty</h3>
+                        <div className="strana1__content">
+                            <span>jan.siegl@pm.me</span>
+                            <span>+420 720 181 778</span>
+                            <span><a href="https://github.com/jan-siegl"><Github/></a><a
+                            href="https://www.linkedin.com/in/jan-siegl-1ab7b61a7/"><Linkedin/></a><a
+                            href="https://www.instagram.com/honza_siegl/"><Instagram/></a></span>
+                        </div>
+
                         <div className="mobile-navigace">
                             <Dot children={'Jan Siegl'} slide={0} className="tlacitko "/>
                             <Dot children={'O mě'} slide={1} className="tlacitko"/>
