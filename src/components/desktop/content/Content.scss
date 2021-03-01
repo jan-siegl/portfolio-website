@@ -12,10 +12,6 @@
   box-shadow: 9px 8px 6px #00000029;
 }
 
-.font2 {
-  font-family: 'Poppins', sans-serif;
-}
-
 //mainnnnnn
 .karticka-main {
   display: flex;
@@ -33,7 +29,7 @@
   padding-left: 10% !important;
 }
 
-.main-headshot svg {
+.main-headshot img {
   width: 15vw;
   height: 15vw;
 }
@@ -59,16 +55,23 @@
 
 //ome
 .karticka-ome {
-  padding: 3rem 5rem;
-  font-size: 20px;
-  text-align: center;
+  padding: 0 4rem;
+  font-size: 1.5rem;
+  line-height: 1.2em;
+  text-align: justify;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
   color: #707070;
+}
+
+.karticka-ome p {
+  padding: 1rem 0;
 }
 
 //dovednosti
 .karticka-dovednosti {
-  padding: 3rem 5rem;
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: #707070;
 }
 
@@ -119,7 +122,7 @@
 
 .panel-subinfo {
   font-size: small;
-  color: grey;  
+  color: grey;
 }
 
 .panel0 {
@@ -135,9 +138,13 @@
 //kontakty
 .karticka-kontakty {
   color: #707070;
-  text-align: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-content: center;
 }
-
-.kontakty-content {
-  padding-top: 20%;
+.karticka-kontakty span {
+  margin: 0 auto;
+  padding: 1rem 0;
+  font-size: 1.75rem;
 }

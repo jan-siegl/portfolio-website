@@ -16,7 +16,7 @@
   display: flex;
   background-color: var(--color-bg);
   height: 500vh;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Helvetica CE 55 Roman", sans-serif;
 }
 
 .column {
@@ -113,4 +113,8 @@ ul {
 
 .sidebar-link-text {
   padding-left: 1vw;
+}
+
+a:hover {
+  color: black !important;
 }

@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 
 import './Content.scss';
 
-import { ReactComponent as Avatar } from "../../../images/avatar.svg";
+//import { ReactComponent as Avatar } from "../../../images/avatar.svg";
 
 function Main() {
     return (
@@ -12,7 +12,7 @@ function Main() {
             <div className="karticka karticka-main font2">
                 <Row className="main-row">
                 <Col className="main-headshot">
-                    <Avatar/>
+                    <img src="/images/profile_pic.png" alt="Profilová fotka"/>
                 </Col>
                 <Col className="main-text">
                     <h1>JAN SIEGL</h1>

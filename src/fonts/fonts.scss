@@ -1,0 +1,35 @@
+@font-face {
+  font-family: 'Helvetica CE 55 Roman';
+  src: url('HelveticaNeueCE-BoldItalic.woff2') format('woff2'),
+  url('HelveticaNeueCE-BoldItalic.woff') format('woff');
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica CE 55 Roman';
+  src: url('HelveticaNeueCE-Bold.woff2') format('woff2'),
+  url('HelveticaNeueCE-Bold.woff') format('woff');
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica CE 55 Roman';
+  src: url('HelveticaNeueCE-Roman.woff2') format('woff2'),
+  url('HelveticaNeueCE-Roman.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Helvetica CE 55 Roman';
+  src: url('HelveticaNeueCE-Italic.woff2') format('woff2'),
+  url('HelveticaNeueCE-Italic.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+  font-display: swap;
+}

@@ -5,14 +5,10 @@ import './Content.scss';
 function Dovednosti() {
     return (
         <div className="root ome-root" id="3">
-            <div className="karticka karticka-dovednosti font2">
-                <p>
-                    <h3>Mám zkušenosti s</h3><br/>
-                    <b>Vývojem webů:</b> <br/>HTML, CSS/SCSS, Tailwind/Bootstrap, Javascript - React, PHP - Nette<br/><br/>
-                    <b>UI/UX designem:</b> <br/>Adobe XD, Figma, Photoshop<br/><br/>
-                    <b>Programováním:</b> <br/>Java - JavaFX, Python<br/><br/>
-                    <b>Angličtinou na úrovni rodilého mluvčí (C2)</b>
-                </p>
+            <div className="karticka karticka-ome">
+                <p>V páté třídě jsem se na kroužku ve škole seznámil s <b>HTML a CSS</b>, což odstartovalo můj zájem o tovrbu webů. Na základce jsem se sám učil základy <b>JavaScriptu</b></p>
+                <p>Pořádně jsem se tomu začal věnovat tři roky zpět, v prváku na střední. To jsem poprvé objevil <b>React.</b> Na několika prvních projektech jsem se seznámil se <b>SASS</b> postprocesorem.</p>
+                <p>Už skoro půl roku mám stáž v studiu <a href="http://dipozitiv.cz/">Dipozitiv</a>, kde jsem zlepšil svůj kód, naučil se používat BEM, seznámil se se <b>Svelte</b> a jeho použitím se <b>Sapper</b>em a pracoval na mnoho projektech. </p>
             </div>
         </div>
     )
