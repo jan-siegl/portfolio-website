@@ -69,7 +69,7 @@ function MobileApp() {
                         <div className="strana1__content">
                             <p>V páté třídě jsem se na kroužku ve škole seznámil s <b>HTML a CSS</b>, což odstartovalo můj zájem o tovrbu webů. Na základce jsem se sám učil základy <b>JavaScriptu</b></p>
                             <p>Pořádně jsem se tomu začal věnovat tři roky zpět, v prváku na střední. To jsem poprvé objevil <b>React.</b> Na několika prvních projektech jsem se seznámil se <b>SASS</b> postprocesorem.</p>
-                            <p>Už skoro půl roku mám stáž v studiu <a href="http://dipozitiv.cz/">Dipozitiv</a>, kde jsem zlepšil svůj kód, naučil se používat BEM, seznámil se se <b>Svelte</b> a jeho použitím se <b>Sapper</b>em a pracoval na mnoho projektech. </p>
+                            <p>Už skoro půl roku mám stáž ve studiu <a href="http://dipozitiv.cz/">Dipozitiv</a>, kde jsem zlepšil svůj kód, naučil se používat BEM, seznámil se se <b>Svelte</b> a jeho použitím se <b>Sapper</b>em a pracoval na mnoho projektech. </p>
                         </div>
                         <div className="mobile-navigace">
                             <Dot children={'Jan Siegl'} slide={0} className="tlacitko "/>
@@ -93,7 +93,7 @@ function MobileApp() {
                                     <img className="panel-img  projects-img" src={JanSieglWeb}/><br/><br/>
                                     <b>Osobní portfolio</b><br/>
                                     <i>Jan Siegl</i><br/>
-                                    <span className="panel-subinfo  mobile-panel-subinfo">Technologie: React, React Spring, TailwindCSS</span>
+                                    <span className="panel-subinfo  mobile-panel-subinfo">Technologie: React, React Spring</span>
                                 </Slide>
                                 <Slide index={1} className="projects-stranky">
                                     <img className="panel-img  projects-img" src={EphiWeb}/><br/><br/>

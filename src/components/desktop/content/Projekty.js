@@ -21,7 +21,7 @@ function Projekty() {
                         <img className="panel-img" src={JanSieglWeb}/><br/><br/>
                         <b>Osobní portfolio</b><br/>
                         <i>Jan Siegl</i><br/>
-                        <span className="panel-subinfo">Technologie: React, React Spring, TailwindCSS</span>
+                        <span className="panel-subinfo">Technologie: React, React Spring</span>
                     </div>
                     <div className="panel panel1">
                         <img className="panel-img" src={EphiWeb}/><br/><br/>
