@@ -48,13 +48,11 @@ function MobileApp() {
                     <Slide index={1} className="strana strana1">
                         <h3><b>O mně</b></h3>
                         <div className="strana1__content">
-                            <p>Jsem osmnáctiletý student střední školy informačních technologií, který letos maturuje.
-                                Baví mě vymýšlet a realizovat zajímavé projekty. Ať
-                                už <b>weby, mobilní aplikace,</b> či cokoliv kreativního.</p>
+                            <p>Jsem devatenáctiletý student, který letos začína vysokou školu. Baví mě vymýšlet a realizovat zajímavé projekty.
+                                Nejvíce se věnuju <b>Front&#8209;end vývoji</b>, ale vyzkoušel jsem si i práci na mobilních aplikacích a backendu.</p>
                             <p>Snažím se dělat to, co mě baví a neustále se rozvíjet. Nejradši se učím praxí.</p>
                             <p>Mezi mé další oblíbené aktivity patří <b>fotografování, videotvorba</b> a
-                                venkovní sporty. V létě najedu spoustu kilometrů na kole a v zimě rád běhám na běžkách.
-                            </p>
+                                venkovní sporty. V létě najedu spoustu kilometrů na kole a v zimě rád běhám na běžkách.</p>
                         </div>
                         <div className="mobile-navigace">
                             <Dot children={'Jan Siegl'} slide={0} className="tlacitko"/>
@@ -67,9 +65,9 @@ function MobileApp() {
                     <Slide index={2} className="strana strana1">
                         <h3>Mám zkušenosti s</h3>
                         <div className="strana1__content">
-                            <p>V páté třídě jsem se na kroužku ve škole seznámil s <b>HTML a CSS</b>, což odstartovalo můj zájem o tovrbu webů. Na základce jsem se sám učil základy <b>JavaScriptu</b></p>
-                            <p>Pořádně jsem se tomu začal věnovat tři roky zpět, v prváku na střední. To jsem poprvé objevil <b>React.</b> Na několika prvních projektech jsem se seznámil se <b>SASS</b> postprocesorem.</p>
-                            <p>Už skoro půl roku mám stáž ve studiu <a href="http://dipozitiv.cz/">Dipozitiv</a>, kde jsem zlepšil svůj kód, naučil se používat BEM, seznámil se se <b>Svelte</b> a jeho použitím se <b>Sapper</b>em a pracoval na mnoho projektech. </p>
+                            <p>V páté třídě jsem se na kroužku ve škole seznámil s <b>HTML a CSS</b>, což odstartovalo můj zájem o tovrbu webů. Na základce jsem se sám učil základy <b>JavaScriptu</b>.</p>
+                            <p>Pořádně jsem se tomu začal věnovat čtyři roky zpět, v prváku na střední. To jsem poprvé objevil <b>React.</b> Na několika prvních projektech jsem se seznámil se <b>SASS</b> postprocesorem. Poslední dobou jsem si na vlastních projektech oblíbil <b>Next.js</b> a <b>TailwindCSS</b>. Na backendu používám <b>Express.js</b> komunikující přes <b>REST</b> API.</p>
+                            <p>Už skoro rok pracuji jako stážista ve studiu <a href="http://dipozitiv.cz/">Dipozitiv</a>, kde jsem zlepšil svůj kód, naučil se používat BEM, seznámil se se <b>Svelte</b> a jeho použitím se <b>Sapper</b>em a komunikací přes <b>GraphQl</b> API.</p>
                         </div>
                         <div className="mobile-navigace">
                             <Dot children={'Jan Siegl'} slide={0} className="tlacitko "/>
